@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nave-container{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+
+}
+@media screen and (max-width:992px){
+  .navbar-nav a{
+font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width:992px){
+  .logoimg{
+width: 200px;
+  }
+}
+
+.nave{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1100px;
+  height: 70px;
+
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+.right ul{
+  display: flex;
+  margin: 0px;
+}
+
+@media screen and (max-width:992px){
+  .nave-container{
+    display: none;
+  }
+}
+
+.right ul li{
+  padding: 10px 16px;
+}
+
+.right ul li a{
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.logo{
+  color:danger;
+}
+
+
+
+.socials{
+  display: flex;
+}
+
+.socials a{
+  color: red;
+  padding: 10px;
+}
+
+#navboot{
+
+  height: fit-content;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#icon{
+  color: red;
+}
+
+
+.main-content{
+max-width: 1100px;
+margin: 0px auto;
+}
+
+@media screen and (max-width:700px){
+  .main-content{
+width: 100%
+  }
+}
+
+
+
+
+.heading{
+  text-align: center;
+font-weight:100;
+padding-top: 100px;
+}
+
+@media screen and (max-width:992px){
+.heading{
+font-size: 60px;
+font-weight: bold;
+padding: 20px;
+  }
+}
+
+.rede{
+  color: red;
+}
+
+.heading-p{
+  text-align: center;
+padding: 20px;
+}
+
+@media screen and (max-width:992px){
+.heading-p{
+font-size:30px;
+  }
+}
+
+
+.main-content2{
+display: flex;
+grid-gap: 10px;
+width: 100%;
+overflow: auto;
+}
+
+@media screen and (max-width:700px){
+  .main-content2{
+  padding:0px 20px;
+  }
+}
+
+.main-content2 img{
+  width: 200px;
+}
+
+@media screen and (max-width:992px){
+  .main-content2 img{
+width: 400px;
+  }
+}
+
+.main-content3{
+/* background-image: url("pics/13.jpg");
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; */
+padding-top: 20px;
+}
+
+@media screen and (max-width:700px){
+  .main-content3{
+  padding: 20px;
+  }
+}
